@@ -34,6 +34,8 @@ const bootstrap = (app) => {
 };
 
 export default {
-  config,
+  config: {
+    locales: ['en', 'pt-BR'],
+  },
   bootstrap,
 };
